@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Borrow a Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="LMScss.css">
+    </head>
+    <body>
+        <div class="table-wrapper">
+        <h1>Borrow a Book</h1>
+        <h2>Enter the required fields</h2>
+        <form action="borrowBook" method="post">
+            <table class = "fl-table">
+                <tr>
+                    <td><label> ISBN: </label></td> 
+                    <td> <input type="number" name="ISBN"></td>
+                </tr>
+                <tr>
+                    <td><label>User ID: </label></td> 
+                    <td> <input type="number" name="ID"></td>
+                </tr>
+                <tr>
+                    <td><label>Data issued: </label></td> 
+                    <td> <input type="text" name="dateI" title ="Ex: 07/12/20"></td>
+                </tr>
+                <tr>
+                    <td><label>Data due: </label></td> 
+                    <td> <input type="text" name="dateD" title ="Ex: 07/12/20"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Borrow Book"></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>

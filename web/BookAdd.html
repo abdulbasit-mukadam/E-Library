@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="LMScss.css">
+    </head>
+    <body>
+        <div class="table-wrapper">
+        <h1>Add a book</h1>
+        <h2>Enter all the required fields</h2>
+        <form action="AddBook" method="post">
+            <table class = "fl-table">
+                <tr>
+                    <td>ISBN: </td>
+                    <td><input type="number" name="ISBN"></td>
+                </tr>
+                <tr>
+                    <td>Author: </td>
+                    <td><input type="text" name="author"></td>
+                </tr>
+                <tr>
+                    <td>Title: </td>
+                    <td><input type="text" name="title"></td>
+                </tr>
+                <tr>
+                    <td>Category: </td>
+                    <td><input type="text" name="category"></td>
+                </tr>
+                <tr>
+                    <td>Copies: </td>
+                    <td><input type="number" name="copies"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add Book"> </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>
